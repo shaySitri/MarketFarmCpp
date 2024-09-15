@@ -1,13 +1,13 @@
-# MarketFarmCpp
+# MarketFarmCpp 🐄🌾🐓
 
 Welcome to **MarketFarmCpp**! This C++ application simulates a market environment where farmers manage farms specializing in cows, sheep, or chickens, and trade related products. The application utilizes the Observer design pattern for efficient communication and transaction management.
 
 ## Overview
 
 In this simulation:
-- **Cows** produce milk.
-- **Sheep** produce wool.
-- **Chickens** produce eggs.
+- **Cows** 🐄 produce milk 🥛.
+- **Sheep** 🐑 produce wool 🧶.
+- **Chickens** 🐓 produce eggs 🥚.
 
 Farmers trade these products based on their needs and use any remaining funds to purchase additional animals.
 
@@ -25,14 +25,14 @@ Farmers trade these products based on their needs and use any remaining funds to
 
 ## Installation
 
-1. **Clone the Repository**
+1. **Clone the Repository** 🐙
 
     ```bash
     git clone https://github.com/shaySitri/MarketFarmCpp.git
     cd MarketFarmCpp
     ```
 
-2. **Build the Project**
+2. **Build the Project** 🔧
 
     ```bash
     mkdir build
@@ -41,7 +41,7 @@ Farmers trade these products based on their needs and use any remaining funds to
     make
     ```
 
-3. **Run the Application**
+3. **Run the Application** 🚀
 
     ```bash
     ./MarketFarmCpp
@@ -49,7 +49,7 @@ Farmers trade these products based on their needs and use any remaining funds to
 
 ## Components
 
-### Farm
+### Farm 🏡
 
 The `Farm` class represents a farm with:
 - **Data Members**:
@@ -65,7 +65,7 @@ The `Farm` class represents a farm with:
   - `BuyAnimals()`: Purchases animals to expand the farm.
   - `PrintFarm()`: Prints farm details.
 
-### Market
+### Market 🌍
 
 The `Market` class manages all farms and market operations:
 - **Data Members**:
@@ -80,7 +80,7 @@ The `Market` class manages all farms and market operations:
   - `FastForwardYears()`: Skips ahead by a specified number of years.
   - `PrintMarketFarms()`: Prints details of all farms in the market.
 
-### Animal
+### Animal 🐄🐑🐓
 
 The `Animal` class represents different types of animals:
 - **Data Members**:
@@ -88,11 +88,10 @@ The `Animal` class represents different types of animals:
   - `PurchasePrice`: Price of the animal.
   - `DeathAge`: Age at which the animal dies.
 
-### Exceptions
+### Exceptions 🚨
 
 The application handles errors with specific exceptions:
 - `CowException`: Thrown for negative numbers of cow farms.
 - `SheepException`: Thrown for negative numbers of sheep farms.
 - `ChickenException`: Thrown for negative numbers of chicken farms.
 - General exceptions for other issues (e.g., memory allocation) are also managed.
-
